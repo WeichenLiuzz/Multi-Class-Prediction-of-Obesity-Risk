@@ -5,19 +5,19 @@ This project focuses on predicting the risk of obesity using machine learning te
 ObesityDataSet.csv: This file contains the dataset used for training and evaluation. It includes features such as age, height, weight, family history of overweight, diet habits, physical activity level, etc.
 
 ## Files
-train.csv: CSV file containing the training data.
-test.csv: CSV file containing the test data.
+train.csv: CSV file containing the training data.\
+test.csv: CSV file containing the test data.\
 sample_submission.csv: Sample submission file for the competition.
 
 ## Notebook
 Multi-Class Prediction of Obesity Risk.ipynb: This Jupyter notebook contains the code for data preprocessing, exploratory data analysis, model training, and evaluation. It walks through the process of loading the data, performing feature engineering, training machine learning models, and evaluating their performance.
 
 ## Project Structure
-Data Preprocessing: Handling missing values, encoding categorical variables, feature scaling, etc.
-Exploratory Data Analysis (EDA): Analyzing the distribution of features, exploring relationships between variables, identifying patterns, and gaining insights into the data.
-Model Training: Implementing machine learning models such as LightGBM, RandomForest, etc., for multi-class classification of obesity risk.
-Model Evaluation: Evaluating the models using appropriate evaluation metrics such as accuracy, precision, recall, F1-score, etc.
-Hyperparameter Tuning: Optimizing model hyperparameters using techniques like RandomizedSearchCV, GridSearchCV, etc.
+Data Preprocessing: Handling missing values, encoding categorical variables, feature scaling, etc.\
+Exploratory Data Analysis (EDA): Analyzing the distribution of features, exploring relationships between variables, identifying patterns, and gaining insights into the data.\
+Model Training: Implementing machine learning models such as LightGBM, RandomForest, etc., for multi-class classification of obesity risk.\
+Model Evaluation: Evaluating the models using appropriate evaluation metrics such as accuracy, precision, recall, F1-score, etc.\
+Hyperparameter Tuning: Optimizing model hyperparameters using techniques like RandomizedSearchCV, GridSearchCV, etc.\
 Submission: Generating predictions on the test data and creating the submission file.
 
 ## Setup
